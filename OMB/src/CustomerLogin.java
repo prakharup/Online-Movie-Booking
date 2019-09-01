@@ -23,6 +23,7 @@ public class CustomerLogin extends HttpServlet {
         email = request.getParameter("EmailID");
         pass = request.getParameter("passwd");
        try {
+           //Hey there
             Class.forName("oracle.jdbc.driver.OracleDriver");
             con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "system", "prakhar");
             st = con.createStatement();
