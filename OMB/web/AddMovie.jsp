@@ -76,6 +76,8 @@
                                 </form>
                                <p align="center"><i>
                             <%
+                             //yoyo
+                              //Check this message
                                 String movmsg = (String) request.getAttribute("movmsg");
                                 if (movmsg == null) {
                                     out.println("");
